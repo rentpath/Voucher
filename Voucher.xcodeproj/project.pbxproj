@@ -403,12 +403,12 @@
 					659AF1C91BEF1D3E0031B3A5 = {
 						CreatedOnToolsVersion = 7.1;
 						DevelopmentTeam = 99M2UD9XXB;
-						LastSwiftMigration = 0820;
+						LastSwiftMigration = 1000;
 					};
 					659AF1DF1BEF1D530031B3A5 = {
 						CreatedOnToolsVersion = 7.1;
 						DevelopmentTeam = 99M2UD9XXB;
-						LastSwiftMigration = 0820;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -794,7 +794,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rizwansattar.Voucher-iOS-App";
 				PRODUCT_NAME = "Voucher iOS App";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -807,7 +808,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rizwansattar.Voucher-iOS-App";
 				PRODUCT_NAME = "Voucher iOS App";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -823,7 +825,8 @@
 				PRODUCT_NAME = "Voucher tvOS App";
 				SDKROOT = appletvos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -840,7 +843,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rizwansattar.Voucher-tvOS-App";
 				PRODUCT_NAME = "Voucher tvOS App";
 				SDKROOT = appletvos;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
